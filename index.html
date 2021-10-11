@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Demo: Page Visibility API</title>
+</head>
+<body>
+  <video src="https://mdn.github.io/dom-examples/picture-in-picture/assets/bigbuckbunny.mp4" id="video" muted="" autoplay="" width="300"></video>
+  <button onclick="togglePictureInPicture()">Toggle Picture in Picture</button>
+
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+  <p>lorem ipsum</p>
+
+
+<script>
+function togglePictureInPicture() {
+  if (document.pictureInPictureElement) {
+      document.exitPictureInPicture();
+  } else {
+    if (document.pictureInPictureEnabled) {
+      video.requestPictureInPicture();
+    }
+  }
+}
+</script>
+</body>
+</html>
